@@ -1,0 +1,104 @@
+@import url('/home/frederick/.cache/wal/colors-waybar.css');
+
+* {
+    border: none;
+    font-family: "CozetteVector";
+    font-size: 9pt;
+    min-height: 0;
+}
+
+window#waybar {
+    background: rgba(5,5,5,0.00);
+    /*background-color: @background ;*/
+    color: @cursor;
+}
+
+#window {
+    font-family: "CozetteVector";
+}
+
+#workspaces {
+    padding: 0 6px;
+}
+
+
+#workspaces button {
+    padding: 0 5px;
+    background: transparent;
+    color: gray;
+    border-top: 2px solid transparent;
+}
+
+#workspaces button.focused {
+    color: @foreground;
+    border-top: 2px solid @foreground;
+}
+
+#mode {
+    background: @background;
+    border-bottom: 3px solid @background;
+}
+
+#clock, #battery, #cpu, #memory, #network, #pulseaudio, #tray, #mode {
+    padding: 0 10px;
+    margin: 0 2px;
+}
+
+#clock {
+}
+
+#battery {
+}
+
+#battery icon {
+    color: @cursor;
+}
+
+@keyframes blink {
+    to {
+        background-color: @background;
+        color: @cursor;
+    }
+}
+
+#battery.warning:not(.charging) {
+    color: @color1;
+}
+
+#battery.critical:not(.charging) {
+    color: @color11;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#battery.charging {
+	background-color: rgba(0,0,0,0);
+}
+
+#cpu {
+}
+
+#memory {
+}
+
+#network {
+}
+
+#network.disconnected {
+}
+
+#pulseaudio {
+}
+
+#pulseaudio.muted {
+}
+
+
+#tray {
+}
+
+#custom-sunpaper {
+}

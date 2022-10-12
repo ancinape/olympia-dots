@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/frederick/.config/sunpaper/images/fakuria-design/2.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#fdfcf7",
+        "foreground": "#0D111C",
+        "cursor": "#0D111C"
+    },
+    "colors": {
+        "color0": "#fdfcf7",
+        "color1": "#746975",
+        "color2": "#84777D",
+        "color3": "#9B867C",
+        "color4": "#8C7D81",
+        "color5": "#A58C88",
+        "color6": "#D3AA8E",
+        "color7": "#0D111C",
+        "color8": "#948d7b",
+        "color9": "#746975",
+        "color10": "#84777D",
+        "color11": "#9B867C",
+        "color12": "#8C7D81",
+        "color13": "#A58C88",
+        "color14": "#D3AA8E",
+        "color15": "#0D111C"
+    }
+}

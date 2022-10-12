@@ -1,0 +1,83 @@
+{
+    "layer": "top",
+    "height": 26, 
+    "modules-left": ["sway/workspaces", "sway/mode"],
+    "modules-center": ["sway/window"],
+    "modules-right": ["custom/sunpaper","pulseaudio", "network", "cpu", "memory", "battery", "tray",  "sway/language",  "clock"],
+    "sway/workspaces": {
+        //"disable-scroll": true,
+        "format": "{icon}",
+        "format-icons": {
+            "1:Librewolf": "",
+            "2:Social": "",
+            "3:Terminal": "",
+            "4:Notes": "",
+            "urgent": "⚠",
+            "focused": "✚",
+            "default": "✜"
+        }
+    },
+    "sway/mode": {
+        "format": "<span style=\"italic\">{}</span>"
+    },
+    "tray": {
+        "icon-size": 12,
+        "spacing": 10
+    },
+    "clock": {
+    	"timezone": "America/New_York",
+        "format-alt": "{:%Y-%m-%d}"
+    },
+    "cpu": {
+        "format": "{usage}% "
+    },
+    "memory": {
+        "format": "{}% "
+    },
+
+    "custom/sunpaper": {
+    	"exec": "~/.config/sunpaper/sunpaper.sh --waybar",
+    	"interval": 60,
+	"return-type": "json"
+    },
+
+    "sway/language": {
+	"format": "{short}",
+    },
+
+    "battery": {
+        "bat": "BAT0",
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{capacity}% {icon}",
+        "format-charging": "{capacity}% ",
+	"format-full": "",
+        "format-icons": ["", "", "", "", ""]
+    },
+    "network": {
+        "format-wifi": "{essid} ({signalStrength}%) ",
+        "format-ethernet": "{ifname}: {ipaddr}/{cidr} ",
+        "format-disconnected": "",
+	"on-click": "foot -e nmtui"
+    },
+
+    "pulseaudio": {
+        //"scroll-step": 1,
+        "format": "{volume}% {icon}",
+        "format-bluetooth": "{volume}% {icon}",
+        "format-muted": "婢",
+        "format-icons": {
+            "headphones": "",
+            "handsfree": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", ""]
+        },
+        "on-click": "pavucontrol"
+    }
+
+}

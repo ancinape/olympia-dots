@@ -1,0 +1,32 @@
+{
+    "2cd60b86-d844-4436-bec4-ca1ef0536d58": {
+        "id": "2cd60b86-d844-4436-bec4-ca1ef0536d58",
+        "name": "Wikipedia",
+        "keyword": "wiki",
+        "cmd": "https://en.wikipedia.org/wiki/%s",
+        "icon": "/usr/share/ulauncher/media/wikipedia-icon.png",
+        "is_default_search": true,
+        "run_without_argument": false,
+        "added": 1633639198.1242697
+    },
+    "5bd5697f-deba-4088-b3eb-66240781e56f": {
+        "id": "5bd5697f-deba-4088-b3eb-66240781e56f",
+        "name": "Arch Wiki",
+        "keyword": "aw",
+        "cmd": "https://wiki.archlinux.org/index.php?search=%s",
+        "icon": "~/Downloads/Arch-linux-logo.png",
+        "is_default_search": false,
+        "run_without_argument": false,
+        "added": 1633639688.5762048
+    },
+    "b8bf5d8c-39f8-42c7-8a22-024fd67c18a3": {
+        "id": "b8bf5d8c-39f8-42c7-8a22-024fd67c18a3",
+        "name": "AUR",
+        "keyword": "aur",
+        "cmd": "https://aur.archlinux.org/packages/?O=0&K=%s",
+        "icon": null,
+        "is_default_search": false,
+        "run_without_argument": false,
+        "added": 1633761854.978168
+    }
+}

@@ -1,0 +1,21 @@
+set $wallpaper /home/frederick/.config/sunpaper/images/fakuria-design/5.jpg
+
+set $background #faf0ee
+set $foreground #0C0A2D
+
+set $color0 #faf0ee
+set $color1 #9F422A
+set $color2 #AF4D2A
+set $color3 #CD6926
+set $color4 #D16D24
+set $color5 #9B5272
+set $color6 #E58425
+set $color7 #0C0A2D
+set $color8 #886056
+set $color9 #9F422A
+set $color10 #AF4D2A
+set $color11 #CD6926
+set $color12 #D16D24
+set $color13 #9B5272
+set $color14 #E58425
+set $color15 #0C0A2D

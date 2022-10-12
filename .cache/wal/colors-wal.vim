@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/frederick/.config/sunpaper/images/fakuria-design/5.jpg"
+let background = "#faf0ee"
+let foreground = "#0C0A2D"
+let cursor     = "#0C0A2D"
+
+" Colors
+let color0  = "#faf0ee"
+let color1  = "#9F422A"
+let color2  = "#AF4D2A"
+let color3  = "#CD6926"
+let color4  = "#D16D24"
+let color5  = "#9B5272"
+let color6  = "#E58425"
+let color7  = "#0C0A2D"
+let color8  = "#886056"
+let color9  = "#9F422A"
+let color10 = "#AF4D2A"
+let color11 = "#CD6926"
+let color12 = "#D16D24"
+let color13 = "#9B5272"
+let color14 = "#E58425"
+let color15 = "#0C0A2D"
